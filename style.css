@@ -1,7 +1,7 @@
 /* CSS variables */
 
 :root {
-	--primary: url(./img/skillset-pattern-blue.jpg);
+	--primary: url(./img/skillset-pattern-orange.jpg);
 	--dark: #F2F2F2;
 	--light: #fff;
 	--shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
@@ -47,7 +47,7 @@ img {
 }
 
 .main-nav a {
-	background: url(./img/skillset-pattern-blue.jpg);
+	background: var(--primary);
 	display: block;
 	text-decoration: none;
 	padding: 0.8rem;
@@ -211,8 +211,8 @@ img {
 
 footer {
 	margin-top: 2rem;
-	background: #2E2E2E;
-	color: var(--light);
+	background: url(./img/skillset-pattern-gray.jpg);
+	color: #000;
 	text-align: center;
 	padding: 1rem;
 }
