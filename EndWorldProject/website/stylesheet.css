@@ -1,0 +1,185 @@
+body {
+	margin: 0;
+	background-color: #EAE0CC;
+	font-family: "Lucida Console", "Monaco", "monospace";
+	font-size: 12px; 
+}
+
+* {
+	list-style: none;
+}
+
+h1 {
+	color: #5BC0EB;
+}
+
+p {
+	color: #C3423F;
+}
+
+td {
+	color: #C3423F;
+}
+
+header {
+	background-color: #222222;
+}
+
+nav {
+	float: right;
+}
+
+header::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	padding-top: 24px;
+	padding-bottom: 24px;
+	margin-left: 50px;
+}
+
+nav a {
+	text-decoration: none;
+	color: #C3423F;
+	text-transform: uppercase;
+}
+
+video {
+	width: 500px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+li a {
+	text-decoration: none;
+	color: #C3423F;
+}
+
+.navbarbg {
+	background-color: #222222;
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.topnavpic {
+	width: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.floatleftpic {
+	float: left;
+}
+
+.center {
+	text-align: center;
+}
+
+li.bottomnav {
+	margin: 0 auto;
+	padding: 0px;
+}
+
+.post-container {
+	background-color: #C9ADA1;
+	margin-top: 10px;
+    border: 5px solid #222222;
+    overflow: auto;
+}
+
+.post-containe {
+	background-color: #008080;
+	margin-top: 10px;
+    border: 5px solid #222222;
+    overflow: auto;
+}
+
+.post-thumb {
+    float: left;
+}
+
+.post-thumb img {
+    display: block;
+}
+
+.post-content {
+    margin-left: 210px;
+}
+
+.post-containerr {
+	background-color: #A0A083;
+	margin-top: 10px;
+    border: 5px solid #222222;
+    overflow: auto;
+}
+.post-thumbb {
+    float: right;
+}
+
+.post-thumbb img {
+    display: block;
+}
+
+.post-contentr {
+    text-align: right;
+}
+
+.contactinfo {
+	color: #9BC53D;
+}
+
+.menu ul, .menu li {
+    margin-left: -5px; 
+    padding: -5px;
+}
+
+.bottomNav {
+	background-color: #fff;
+}
+
+.pic1 {
+	width: 200px;
+}
+
+.pic2 {
+	height: 150px;
+}
+
+.pic3 {
+	height: 125px;
+}
+
+.pic4 {
+	height: 150px;
+}
+
+.pic5 {
+	height: 200px;
+}

@@ -1,0 +1,134 @@
+body { 
+	background-color: #68228B;
+	text-align: center;
+	overflow-x: hidden;
+	margin: 0px; 
+ }
+
+@font-face {
+   font-family: exo;
+   src: url(exo.regular.otf);
+}
+
+ h1 { 
+ 	color: #ffdaff;
+ 	font-family: exo;
+  	text-shadow: 2px #ffffff;
+ }
+
+ p {
+ 	color: #ffdaff;
+ 	font-family: exo;
+ }
+
+ a {
+ 	color: #ffdaff;
+ 	text-decoration: none;
+ 	font-family: exo;
+ }
+
+ video {
+ 	width: 350px;
+ }
+
+ sup {
+ 	color: #ffdaff;
+ 	font-family: exo;
+ }
+
+nav ul {
+	background-color: #601060;
+}
+
+ol {
+	color: #ffdaff;
+}
+
+nav {
+	float: right;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin: 0 35px;
+	padding-top: 32px; 
+
+	position: relative;
+}
+
+header {
+	background-color: #601060;
+}
+
+header::after {
+	content: '';
+	display: table;
+	clear: both;
+	margin: 0;
+	padding: 0, 0;
+}
+
+nav a {
+	color: #ff10c6;
+	text-decoration: none;
+	font-family: exo;
+}
+
+nav a:hover {
+	color: #E0427F;
+}
+
+nav a::before {
+	content: '';
+	display: block;
+	height: 6px;
+	width: 0%;
+	background-color: #E0427F;
+	position: absolute;
+	top: 0;
+	transition: all ease-in-out 400ms;
+}
+
+nav a:hover::before {
+	width: 100%
+
+}
+
+#outPopUp {
+	height: 100%;
+	border: solid;
+	border-color: #ff00ff;
+	border-width: 2.5px;
+	background-color: #601060;
+	width: 50%; 
+	float: center;
+	overflow: hidden;
+	margin: auto;
+	margin-bottom: 5px;
+}
+
+.logo {
+    transition: all 100ms ease-in-out;
+	float: left;
+	width: 50px;
+	padding: 15px 15px;
+}
+.logo:hover {
+	width: 55px;
+	padding: 12.5px 12.5px;
+    transition: all 100ms ease-in;
+}
+
+.navbar {
+	margin-top: 0!important;
+}
+.btn {
+	border-width: 0 0px;
+	background-color: #68228B;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>osu!website</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+	<script type="text/javascript" src="main.js"></script>
+</head>
+
+<body>
+	
+<header class="navbar">
+
+	<div class="container" id="noborder">
+
+		<a href="https://osu.ppy.sh/" target="_blank">
+
+			<img src="./picvid/Osu!Logo.png" alt="osu!logo" id="imageOne" class="logo" onclick = "changeColor()">
+			<script>
+            var image =  document.getElementById("imageOne");
+
+            function changeColor()
+            {
+            	
+                if (image.getAttribute('src') == "./picvid/Osu!Logo.png")
+                {
+                	console.log("blue logo"); 
+                    image.src = "./picvid/osu!logoblue.png";
+                }
+                else
+                {
+                	console.log("red logo"); 
+                    image.src = "./picvid/Osu!Logo.png";
+                }
+            }
+        </script>
+			<!--
+			<img src="Osu!Logo.png" alt="osu!logo" class="logo">
+			-->
+		</a>
+
+		<nav>
+
+			<ul>
+
+				<li class="navitem"><a href="index.html">home page</a></li>
+				<li class="navitem"><a href="stream players.html">top osu! stream players*</a></li>
+				<li class="navitem"><a href="#">top osu! jump players*</a></li>
+				<li class="navitem"><a href="#">most consistant osu! players*</a></li>
+				<li class="navitem"><a target="_blank" href="https://osu.ppy.sh/rankings/osu/performance">official leaderboard</a></li>
+
+			</ul>
+
+		</nav>
+
+	</div>
+
+</header>
+<button class="btn" type="button" onclick="ezel()">
+<h1 id="welcome">Osu!game website</h1>
+</button>
+
+<div class="border" id="outPopUp">
+
+	<p class="kkk">
+	   The game called "Osu!" is a rythem game with thousands of players every day.<br>
+	   The premise of the game is simple, click the circles to the beat, but in <br>
+	   practice, the game is harder than you would think at first. <br>
+	</p>
+
+</div>
+
+	<video src="./picvid/osu freedom dive.mp4" autoplay muted loop controls>video of cookiezi playing freedom dive</video>
+	
+<br>
+
+	<sup>
+	Shigetora (aka cookiezi) playing Xi - Freedom Dive.
+	</sup>
+
+<div class="border" id="outPopUp">
+
+	<p>
+		This website was made to show you the top players of the game.<br>
+		The players are devided in multiple different classes, jumping, streaming and consistancy.<br>
+		<br>
+		Jumping is the most obvious one, the better a player can move their cursor across the screen <br>
+		with good accuracy and speed, the higher a player scores on the leaderboard.
+		<br>
+		Streaming is when you have to click a lot of circles in rapid succession.<br>
+		If you look at the video above, you will see a player play a map called: "freedom dive"<br>
+		The map is a notourious streaming map, with a lot of really hard and fast streams.<br>
+		So it comes down to this, the faster a player can stream and with good accuracy, the <br>
+		higher they score.<br>
+		<br>
+		Consistancy is the hardest one to explain, cause it's based on opinion.<br>
+		My take on consistancy is the following; when a player plays maps, they get good combos<br> 
+		and get good accuracy. (a combo is when you hit circles in a row, giving more and more <br>
+		points with the higher combo you get) When a player can get high combos and good accuracy<br>
+		most of the time, the player is consistant. The more they can get good scores in  a row, the<br>
+		higher the player scores on the leaderboard. 
+	</p>
+
+</div>
+
+	<sup>
+		*top players in my opinion
+	</sup>
+
+</body>
+</html>

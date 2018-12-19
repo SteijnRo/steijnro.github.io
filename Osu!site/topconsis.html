@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>osu!website</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+</head>
+
+<body>
+<!--
+	i play this game a bit too much
+-->
+<header class="navbar">
+
+	<div class="container" id="noborder">
+
+		<a href="https://osu.ppy.sh/" target="_blank">
+
+			<img src="./picvid/Osu!Logo.png" alt="osu!logo" id="imageOne" class="logo" onclick = "changeColor()">
+			<script>
+            var image =  document.getElementById("imageOne");
+
+            function changeColor()
+            {
+            	
+                if (image.getAttribute('src') == "./picvid/Osu!Logo.png")
+                {
+                	console.log("blue logo"); 
+                    image.src = "./picvid/osu!logoblue.png";
+                }
+                else
+                {
+                	console.log("red logo"); 
+                    image.src = "./picvid/Osu!Logo.png";
+                }
+            }
+        </script>
+			<!--
+			<img src="Osu!Logo.png" alt="osu!logo" class="logo">
+			-->
+		</a>
+
+		<nav>
+
+			<ul>
+
+				<li class="navitem"><a href="index.html">home page</a></li>
+				<li class="navitem"><a href="stream players.html">top osu! stream players*</a></li>
+				<li class="navitem"><a href="topjump.html">top osu! jump players*</a></li>
+				<li class="navitem"><a href="topconsis.html">most consistant osu! players*</a></li>
+				<li class="navitem"><a target="_blank" href="https://osu.ppy.sh/rankings/osu/performance">official leaderboard</a></li>
+
+			</ul>
+
+		</nav>
+
+	</div>
+
+</header>
+
+</body>
+</html>
