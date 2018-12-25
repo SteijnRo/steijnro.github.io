@@ -144,12 +144,19 @@ img {
 .info {
 	background: var(--primary);
 	box-shadow: var(--shadow);
+	padding: 3rem;
 	display: grid;
 	grid-gap: 30px;
 	grid-template-columns: repeat(3, 1fr);
-	padding: 3rem;
 	grid-template-areas: 
 		''
+}
+
+.info img {
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .info img {
