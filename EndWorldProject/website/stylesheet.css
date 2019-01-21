@@ -1,3 +1,30 @@
+/* navigation */
+
+.main-nav ul {
+	display: grid;
+	grid-gap: 20px;
+	padding: 0;
+	list-style: none;
+	grid-template-columns: repeat(4, 1fr);
+}
+
+.main-nav a {
+	background: #0ff;
+	display: block;
+	text-decoration: none;
+	padding: 0.8rem;
+	text-align: center;
+	color: var(--dark);
+	text-transform: uppercase;
+	font-size: 1.1rem;
+	box-shadow: var(--shadow);
+	transition: ease-in-out 100ms;
+}
+
+.main-nav a:hover {
+	color: #333;
+}
+/* the rest of the site */
 body {
 	margin: 0;
 	background-color: #EAE0CC;
